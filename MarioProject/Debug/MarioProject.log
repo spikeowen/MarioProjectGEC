@@ -1,3 +1,9 @@
-﻿  Texture2D.cpp
+﻿  GameScreen.cpp
+  GameScreenLevel1.cpp
+  GameScreenManager.cpp
+  Source.cpp
+  Texture2D.cpp
+  Generating Code...
+  C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(35) : warning C4715: 'GameScreenLevel1::SetUpLevel': not all control paths return a value
   LINK : C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\Debug\MarioProject.exe not found or not built by the last incremental link; performing full link
   MarioProject.vcxproj -> C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\Debug\MarioProject.exe
