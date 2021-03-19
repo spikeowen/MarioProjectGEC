@@ -31,4 +31,10 @@ enum SCREENS
 	SCREEN_HIGHSCORES
 };
 
+enum FACING
+{
+	FACING_LEFT,
+	FACING_RIGHT
+};
+
 #endif //_COMMONS_H
