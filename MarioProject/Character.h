@@ -1,6 +1,7 @@
 #pragma once
 #include <SDL.h>
 #include <iostream>
+#include "Texture2D.h"
 #include "Commons.h"
 using namespace std;
 //MACRO
@@ -26,6 +27,8 @@ protected:
 	virtual void MoveLeft(float deltaTime);
 	virtual void MoveRight(float deltaTime);
 
+	float m_collision_radius;
+
 public:
 	Character(SDL_Renderer* renderer, string imagePath, Vector2D start_position);
 	~Character();
@@ -36,6 +39,11 @@ public:
 
 	void SetPosition(Vector2D new_position);
 	Vector2D GetPosition();
+
+	float GetCollisionRadius();
+
+	Rect2D GetCollisionBox() { return Rect2D(m_position.x, m_position.y, m_texture->GetWidth(), m_texture->GetHeight()); }
+	Circle2D GetCollisionCircle() { return Circle2D(m_position.x, m_position.y, (m_texture->GetWidth()/2)); }
 
 private:
 	FACING m_facing_direction;

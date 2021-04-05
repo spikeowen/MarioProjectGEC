@@ -5,8 +5,7 @@
 
 struct Vector2D
 {
-	float x;
-	float y;
+	float x, y;
 
 	Vector2D()
 	{
@@ -35,6 +34,31 @@ enum FACING
 {
 	FACING_LEFT,
 	FACING_RIGHT
+};
+
+struct Rect2D
+{
+	float x, y, height, width;
+
+	Rect2D(float x_pos, float y_pos, float width, float height)
+	{
+		x = x_pos;
+		y = y_pos;
+		this->width = width;
+		this->height = height;
+	}
+};
+
+struct Circle2D
+{
+	float x, y, radius;
+
+	Circle2D(float x_pos, float y_pos, float radius)
+	{
+		x = x_pos;
+		y = y_pos;
+		this->radius = radius;
+	}
 };
 
 #endif //_COMMONS_H
