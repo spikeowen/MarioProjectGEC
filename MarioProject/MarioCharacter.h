@@ -7,7 +7,7 @@
 class MarioCharacter : public Character
 {
 public:
-	MarioCharacter(SDL_Renderer* renderer, string imagePath, Vector2D start_position);
+	MarioCharacter(SDL_Renderer* renderer, string imagePath, Vector2D start_position, LevelMap* map);
 	~MarioCharacter();
 	void Update(float deltaTime, SDL_Event e) override;
 	void Render();
