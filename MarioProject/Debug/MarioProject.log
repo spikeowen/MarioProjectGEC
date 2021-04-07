@@ -1,33 +1,29 @@
 ﻿  Character.cpp
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(45,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(45,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
   Collisions.cpp
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(45,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(45,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
   GameScreenLevel1.cpp
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(45,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(45,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
   GameScreenManager.cpp
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(45,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(45,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+  LevelMap.cpp
   LuigiCharacter.cpp
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(45,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(45,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
   MarioCharacter.cpp
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(45,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(45,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
   Source.cpp
-  Texture2D.cpp
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(46,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Texture2D.cpp(67,41): warning C4838:  conversion from 'float' to 'int' requires a narrowing conversion
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Texture2D.cpp(67,41): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Texture2D.cpp(67,57): warning C4838:  conversion from 'float' to 'int' requires a narrowing conversion
   Generating Code...
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Texture2D.cpp(67,57): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Texture2D.cpp(67,57): warning C4244: C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(61) : warning C4715: 'GameScreenLevel1::SetUpLevel': not all control paths return a value
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,100): warning C4244: C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(64) : warning C4715: 'GameScreenLevel1::SetUpLevel': not all control paths return a value
   MarioProject.vcxproj -> C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\Debug\MarioProject.exe

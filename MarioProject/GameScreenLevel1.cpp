@@ -8,6 +8,7 @@
 GameScreenLevel1::GameScreenLevel1(SDL_Renderer* renderer) : GameScreen(renderer)
 {
 	SetUpLevel();
+	m_level_map = nullptr;
 }
 
 GameScreenLevel1::~GameScreenLevel1()
@@ -35,10 +36,10 @@ void GameScreenLevel1::Update(float deltaTime, SDL_Event e)
 	luigi_character->Update(deltaTime, e);
 	mario_character->Update(deltaTime, e);
 
-	if (Collisions::Instance()->Circle(mario_character->GetCollisionCircle(), luigi_character->GetCollisionCircle()))
-	{
-		cout << "Circle hit!" << endl;
-	}
+	//if (Collisions::Instance()->Circle(mario_character->GetCollisionCircle(), luigi_character->GetCollisionCircle()))
+	//{
+	//	cout << "Circle hit!" << endl;
+	//}
 
 	//if (Collisions::Instance()->Box(mario_character->GetCollisionBox(), luigi_character->GetCollisionBox()))
 	//{
@@ -55,7 +56,38 @@ bool GameScreenLevel1::SetUpLevel()
 		return false;
 	}
 
+	SetLevelMap();
+
 	//set up player character
-	luigi_character = new LuigiCharacter(m_renderer, "Images/Luigi.png", Vector2D(64, 330));
-	mario_character = new MarioCharacter(m_renderer, "Images/Mario.png", Vector2D(64, 330));
+	luigi_character = new LuigiCharacter(m_renderer, "Images/Luigi.png", Vector2D(64, 330), m_level_map);
+	mario_character = new MarioCharacter(m_renderer, "Images/Mario.png", Vector2D(64, 330), m_level_map);
+}
+
+void GameScreenLevel1::SetLevelMap()
+{
+	int map[MAP_HEIGHT][MAP_WIDTH] = 
+	{ 
+		{ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+		{ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+		{ 1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1 },
+		{ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+		{ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+		{ 0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0 },
+		{ 1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1 },
+		{ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+		{ 0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0 },
+		{ 1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1 },
+		{ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+		{ 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
+		{ 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1 } 
+	};
+
+	//clear any old maps
+	if (m_level_map != nullptr)
+	{
+		delete m_level_map;
+	}
+
+	//set the new one
+	m_level_map = new LevelMap(map);
 }
