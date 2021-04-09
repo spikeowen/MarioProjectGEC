@@ -1,8 +1,8 @@
 #pragma once
 #include <SDL.h>
 #include <iostream>
-#include "Texture2D.h"
 #include "Commons.h"
+#include "Texture2D.h"
 #include "LevelMap.h"
 using namespace std;
 //MACRO
@@ -45,6 +45,9 @@ public:
 
 	Rect2D GetCollisionBox() { return Rect2D(m_position.x, m_position.y, m_texture->GetWidth(), m_texture->GetHeight()); }
 	Circle2D GetCollisionCircle() { return Circle2D(m_position.x, m_position.y, (m_texture->GetWidth()/2)); }
+
+	bool IsJumping() { return m_jumping; }
+	void CancelJump() { m_jumping = false; }
 
 private:
 	FACING m_facing_direction;
