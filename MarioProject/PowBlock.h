@@ -4,6 +4,9 @@
 #include "constants.h"
 #include "LevelMap.h"
 #include "Texture2D.h"
+//MACRO
+#ifndef _POWBLOCK_H
+#define _POWBLOCK_H
 
 class Texture2D;
 class LevelMap;
@@ -31,3 +34,4 @@ private:
 	int m_num_hits_left;
 };
 
+#endif

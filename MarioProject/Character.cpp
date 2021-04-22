@@ -17,6 +17,7 @@ Character::Character(SDL_Renderer* renderer, string imagePath, Vector2D start_po
 	m_moving_right = false;
 
 	m_collision_radius = 15.0f;
+	m_alive = true;
 
 	m_current_level_map = map;
 }
@@ -28,15 +29,18 @@ Character::~Character()
 
 void Character::Render()
 {
-	m_texture->Render( m_position, SDL_FLIP_NONE);
-
-	if (m_facing_direction == FACING_RIGHT)
+	if (m_alive == true)
 	{
 		m_texture->Render(m_position, SDL_FLIP_NONE);
-	}
-	else
-	{
-		m_texture->Render(m_position, SDL_FLIP_HORIZONTAL);
+
+		if (m_facing_direction == FACING_RIGHT)
+		{
+			m_texture->Render(m_position, SDL_FLIP_NONE);
+		}
+		else
+		{
+			m_texture->Render(m_position, SDL_FLIP_HORIZONTAL);
+		}
 	}
 }
 
@@ -133,4 +137,9 @@ void Character::Jump()
 float Character::GetCollisionRadius()
 {
 	return m_collision_radius;
+}
+
+void Character::SetAlive(bool isAlive)
+{
+	m_alive = isAlive;
 }
