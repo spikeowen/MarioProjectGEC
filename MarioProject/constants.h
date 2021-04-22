@@ -15,6 +15,10 @@
 #define TILE_WIDTH 32
 #define TILE_HEIGHT 32
 #define SHAKE_DURATION 0.5f
-
+#define INJURED_TIME 2.5f
+#define KOOPA_SPEED 96.0f
+#define GOOMBA_SPEED 48.0f
+#define ENEMY_RESPAWN 10.0f
+#define ANIMATION_DELAY 0.1f
 
 #endif //_CONSTANTS_H
