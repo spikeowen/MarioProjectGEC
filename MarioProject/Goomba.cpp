@@ -72,11 +72,11 @@ void Goomba::EdgeFlip()
 	if (m_facing_direction == FACING_LEFT)
 	{
 		m_facing_direction = FACING_RIGHT;
-		m_position.x = m_position.x + 40.0f;
+		m_position.x = m_position.x + 10.0f;
 	}
 	else
 	{
 		m_facing_direction = FACING_LEFT;
-		m_position.x = m_position.x - 40.0f;
+		m_position.x = m_position.x - 10.0f;
 	}
 }

@@ -1,13 +1,2 @@
-﻿  GameScreenLevel1.cpp
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(48,100): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.h(23,114): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.h(23,90): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(28,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(34,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(40,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(177,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(182,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(182,20): warning C4018: C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(126) : warning C4715: 'GameScreenLevel1::SetUpLevel': not all control paths return a value
+﻿  Source.cpp
   MarioProject.vcxproj -> C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\Debug\MarioProject.exe
