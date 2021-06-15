@@ -1,5 +1,6 @@
 #pragma once
 #include "GameScreen.h"
+#include "GameScreenManager.h"
 #include "Commons.h"
 #include "Character.h"
 #include "Texture2D.h"
@@ -53,6 +54,8 @@ private:
 	vector<Goomba*> m_goombas;
 	vector<Coin*> m_coins;
 	float m_respawn_enemy;
+
+	int coin_count;
 
 public:
 	GameScreenLevel1(SDL_Renderer* renderer);

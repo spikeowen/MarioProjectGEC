@@ -82,7 +82,7 @@ void GameScreenLevel1::Update(float deltaTime, SDL_Event e)
 	m_respawn_enemy -= deltaTime;
 	if (m_respawn_enemy <= 0.0f)
 	{
-		CreateKoopa(Vector2D(450, 32), FACING_LEFT, KOOPA_SPEED);
+		CreateKoopa(Vector2D(450, 30), FACING_LEFT, KOOPA_SPEED);
 		CreateGoomba(Vector2D(25, 20), FACING_RIGHT, GOOMBA_SPEED);
 		m_respawn_enemy = ENEMY_RESPAWN;
 	}
@@ -116,7 +116,7 @@ bool GameScreenLevel1::SetUpLevel()
 	CreateKoopa(Vector2D(25, 32), FACING_RIGHT, KOOPA_SPEED);
 	CreateKoopa(Vector2D(450, 32), FACING_LEFT, KOOPA_SPEED);
 
-	CreateCoin(Vector2D(150, 32));
+	CreateCoin(Vector2D(170, 32));
 	CreateCoin(Vector2D(325, 32));
 
 	m_pow_block = new PowBlock(m_renderer, m_level_map);
@@ -164,6 +164,16 @@ void GameScreenLevel1::UpdatePOWBlock()
 			DoScreenShake();
 			m_pow_block->TakeHit();
 			mario_character->CancelJump();
+		}
+	}
+	else if (Collisions::Instance()->Box(luigi_character->GetCollisionBox(), m_pow_block->GetCollisionBox()) && m_pow_block->IsAvailable())
+	{
+		if (luigi_character->IsJumping())
+		{
+			cout << "POW Block hit!" << endl;
+			DoScreenShake();
+			m_pow_block->TakeHit();
+			luigi_character->CancelJump();
 		}
 	}
 }
@@ -217,8 +227,8 @@ void GameScreenLevel1::UpdateKoopas(float deltaTime, SDL_Event e)
 		int enemyIndexToDelete = -1;
 		for (unsigned int i = 0; i < m_koopas.size(); i++)
 		{
-			//check if the enemy is on the bottom row of tiles
-			if (m_koopas[i]->GetPosition().y > 300.0f)
+			//check if the enemy is past middle of the screen
+			if (m_koopas[i]->GetPosition().y > 150.0f)
 			{
 				//is the enemy off screen to the left / right?
 				if (m_koopas[i]->GetPosition().x < (float)(-m_koopas[i]->GetCollisionBox().width * 0.5f)
@@ -226,7 +236,7 @@ void GameScreenLevel1::UpdateKoopas(float deltaTime, SDL_Event e)
 				{
 					//Flip the koopas at edge of screen 
 					m_koopas[i]->EdgeFlip();
-					std::cout << "Should have flipped." << std::endl;
+					std::cout << "Koopa should have flipped." << std::endl;
 
 					//m_koopas[i]->SetAlive(false);
 				}
@@ -259,7 +269,7 @@ void GameScreenLevel1::UpdateKoopas(float deltaTime, SDL_Event e)
 							mario_character->CancelJump();
 						}
 					}
-					else
+					else if (!m_koopas[i]->GetInjured())
 					{
 						//kill mario
 						mario_character->SetAlive(false);
@@ -282,10 +292,10 @@ void GameScreenLevel1::UpdateKoopas(float deltaTime, SDL_Event e)
 							luigi_character->CancelJump();
 						}
 					}
-					else
+					else if (!m_koopas[i]->GetInjured())
 					{
 						//kill luigi
-						//luigi_character->SetAlive(false);
+						luigi_character->SetAlive(false);
 					}
 				}
 			}
@@ -320,6 +330,7 @@ void GameScreenLevel1::UpdateCoins(float deltaTime, SDL_Event e)
 				if (m_coins[i]->GetAlive())
 				{
 					cout << "Coin Collected!" << endl;
+					coin_count++;
 					m_coins[i]->SetAlive(false);
 				}
 			}
@@ -328,6 +339,7 @@ void GameScreenLevel1::UpdateCoins(float deltaTime, SDL_Event e)
 				if (m_coins[i]->GetAlive())
 				{
 					cout << "Coin Collected!" << endl;
+					coin_count++;
 					m_coins[i]->SetAlive(false);
 				}
 			}
@@ -354,8 +366,8 @@ void GameScreenLevel1::UpdateGoombas(float deltaTime, SDL_Event e)
 		int goombaIndexToDelete = -1;
 		for (unsigned int i = 0; i < m_goombas.size(); i++)
 		{
-			//check if the enemy is on the bottom row of tiles
-			if (m_goombas[i]->GetPosition().y > 300.0f)
+			//check if the enemy is past middle of screen
+			if (m_goombas[i]->GetPosition().y > 150.0f)
 			{
 				//is the enemy off screen to the left / right?
 				if (m_goombas[i]->GetPosition().x < (float)(-m_goombas[i]->GetCollisionBox().width * 0.5f)
@@ -402,7 +414,7 @@ void GameScreenLevel1::UpdateGoombas(float deltaTime, SDL_Event e)
 					else
 					{
 						//kill luigi
-						//luigi_character->SetAlive(false);
+						luigi_character->SetAlive(false);
 					}
 				}
 			}
