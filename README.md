@@ -1,6 +1,6 @@
 # MarioProjectGEC
  A basic Mario game
-A mario game that should have working music, movement and enemy collision, with a few bugs and a very unfished second level
+A mario game that should have working music, movement and enemy collision, with a few bugs and a very unfinished second level
 Controls:
 WASD- Mario
 Arrow keys- Luigi
