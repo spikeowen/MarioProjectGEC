@@ -1,2 +1,119 @@
-﻿  Source.cpp
-  MarioProject.vcxproj -> C:\Users\Spikey\OneDrive - Staffordshire University\Github\MarioRetry\MarioProject\MarioProjectGEC\Debug\MarioProject.exe
+﻿  Character.cpp
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(48,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Coin.cpp
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(48,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Coin.cpp(5,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Coin.cpp(6,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Coin.cpp(37,51): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Coin.cpp(37,51): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Coin.cpp(37,71): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Coin.cpp(37,71): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Coin.cpp(37,90): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Coin.cpp(37,90): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Coin.cpp(39,66): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Coin.cpp(39,66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Coin.cpp(39,85): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Coin.cpp(39,85): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Collisions.cpp
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(48,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GameScreen.cpp
+  GameScreenLevel1.cpp
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(48,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.h(23,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.h(23,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(28,20): warning C4018: '<': signed/unsigned mismatch
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(34,20): warning C4018: '<': signed/unsigned mismatch
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(40,20): warning C4018: '<': signed/unsigned mismatch
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(187,20): warning C4018: '<': signed/unsigned mismatch
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(192,20): warning C4018: '<': signed/unsigned mismatch
+  GameScreenLevel2.cpp
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(48,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.h(23,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.h(23,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel2.cpp(28,20): warning C4018: '<': signed/unsigned mismatch
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel2.cpp(34,20): warning C4018: '<': signed/unsigned mismatch
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel2.cpp(40,20): warning C4018: '<': signed/unsigned mismatch
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel2.cpp(187,20): warning C4018: '<': signed/unsigned mismatch
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel2.cpp(192,20): warning C4018: '<': signed/unsigned mismatch
+  GameScreenManager.cpp
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(48,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.h(23,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.h(23,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Goomba.cpp
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(48,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Goomba.cpp(9,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Goomba.cpp(10,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Goomba.cpp(63,51): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Goomba.cpp(63,51): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Goomba.cpp(63,71): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Goomba.cpp(63,71): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Goomba.cpp(63,90): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Goomba.cpp(63,90): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Goomba.cpp(65,66): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Goomba.cpp(65,66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Goomba.cpp(65,85): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Goomba.cpp(65,85): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  KoopaCharacter.cpp
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(48,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(10,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(11,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(39,21): warning C4553: '==': result of expression not used; did you intend '='?
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(46,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(51,10): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(54,40): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(54,40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(54,59): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(54,59): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(56,66): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(56,66): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(56,85): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\KoopaCharacter.cpp(56,85): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  LevelMap.cpp
+  LuigiCharacter.cpp
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(48,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  MarioCharacter.cpp
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(47,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Character.h(48,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  PowBlock.cpp
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.h(23,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.h(23,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.cpp(16,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.cpp(17,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.cpp(35,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.cpp(38,43): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.cpp(38,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.cpp(38,62): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.cpp(38,62): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.cpp(41,90): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.cpp(41,90): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.cpp(41,109): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\PowBlock.cpp(41,109): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Source.cpp
+  Texture2D.cpp
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Texture2D.cpp(67,41): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Texture2D.cpp(67,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Texture2D.cpp(67,57): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\Texture2D.cpp(67,57): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel2.cpp(126): warning C4715: 'GameScreenLevel2::SetUpLevel': not all control paths return a value
+D:\Github\MarioRetry\MarioProject\MarioProjectGEC\MarioProject\GameScreenLevel1.cpp(126): warning C4715: 'GameScreenLevel1::SetUpLevel': not all control paths return a value
+  MarioProject.vcxproj -> D:\Github\MarioRetry\MarioProject\MarioProjectGEC\Debug\MarioProject.exe
